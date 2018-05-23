@@ -7,8 +7,6 @@ public class Player : MonoBehaviour {
     private float speed = 3f;
     private Rigidbody2D rb;
     Animator anim;
-
-    //public Flowchart flowchart;
 	
     // Use this for initialization
 	void Start () {
@@ -35,14 +33,4 @@ public class Player : MonoBehaviour {
         else if (rb.velocity.y == 0)
             anim.Play("Idle");
 	}
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        //flowchart.SetBooleanVariable("trigger", true);
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        //flowchart.SetBooleanVariable("trigger", false);
-    }
 }

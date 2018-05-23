@@ -7,10 +7,37 @@ public class GameManager : MonoBehaviour {
 
     public static GameManager instance = null;
 
-    private string name;
+    private int evilPoint;
+    private int goodPoint;
 
-	// Use this for initialization
-	void Awake () {
+    public int EvilPoint
+    {
+        get
+        {
+            return evilPoint;
+        }
+
+        set
+        {
+            evilPoint = value;
+        }
+    }
+
+    public int GoodPoint
+    {
+        get
+        {
+            return goodPoint;
+        }
+
+        set
+        {
+            goodPoint = value;
+        }
+    }
+
+    // Use this for initialization
+    void Awake () {
         if (instance == null)
         {
             instance = this;
