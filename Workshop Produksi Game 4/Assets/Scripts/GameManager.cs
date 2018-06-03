@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour {
 
     public static GameManager instance = null;
-
+    
     private int evilPoint;
     private int goodPoint;
 
@@ -46,10 +46,23 @@ public class GameManager : MonoBehaviour {
         {
             Destroy(gameObject);
         }
+        DontDestroyOnLoad(gameObject);
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    private void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
+
+    private void OnLevelWasLoaded(int level)
+    {
+        AdScript ads = new AdScript();
+        ads = FindObjectOfType<AdScript>();
+        ads.showInterstitialAd();
+    }
 }

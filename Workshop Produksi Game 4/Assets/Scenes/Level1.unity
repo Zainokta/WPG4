@@ -2937,12 +2937,10 @@ GameObject:
   - component: {fileID: 1657106455}
   - component: {fileID: 1657106443}
   - component: {fileID: 1657106456}
-  - component: {fileID: 1657106458}
-  - component: {fileID: 1657106457}
   - component: {fileID: 1657106460}
   - component: {fileID: 1657106459}
-  - component: {fileID: 1657106454}
   - component: {fileID: 1657106442}
+  - component: {fileID: 1657106454}
   m_Layer: 0
   m_Name: Flowchart_Pak Mojo
   m_TagString: Untagged
@@ -2963,7 +2961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -157, y: -16}
+  scrollPos: {x: -125, y: -50}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 204
@@ -2991,7 +2989,7 @@ MonoBehaviour:
   luaBindingName: flowchart
 --- !u!114 &1657106442
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1657106440}
@@ -3016,7 +3014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  text: Pisuhi Pak Mojo
+  text: Tinggal
   description: 
   targetBlock: {fileID: 1657106444}
   hideIfVisited: 0
@@ -3051,8 +3049,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1657106458}
-  - {fileID: 1657106457}
   - {fileID: 1657106454}
 --- !u!114 &1657106445
 MonoBehaviour:
@@ -3145,7 +3141,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Yo embuh,awakmu takon aku. Aku takon sopo?
+  storyText: Aku tidak tau bagaimana sapi ku hilang , apakah kamu mau membantu ku
+    ?
   description: 
   character: {fileID: 114694123400422692, guid: 00852190d6de3c047a448000efede312,
     type: 2}
@@ -3172,7 +3169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: Waduh kok isok ilang,Pak?
+  storyText: Bagaimana bisa hilang pak ?
   description: 
   character: {fileID: 114416306709055554, guid: 9df318343ce1bbc40bd9ddda11a876d9,
     type: 2}
@@ -3199,7 +3196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: Iki le. Sapiku ilang. Pusing aku.
+  storyText: Sapi kesayanganku hilang waktu aku tinggal.
   description: 
   character: {fileID: 114694123400422692, guid: 00852190d6de3c047a448000efede312,
     type: 2}
@@ -3226,7 +3223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: Ono opo pak? Kok ketokane panjenengan bingung ngono.
+  storyText: Ada yang bisa saya bantu kelihatanya bapak lagi ada masalah ?
   description: 
   character: {fileID: 114416306709055554, guid: 9df318343ce1bbc40bd9ddda11a876d9,
     type: 2}
@@ -3282,7 +3279,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1657106454
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1657106440}
@@ -3337,61 +3334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: Tak ewangi nggolek sapine panjenengan,Pak.
-  description: 
-  character: {fileID: 114416306709055554, guid: 9df318343ce1bbc40bd9ddda11a876d9,
-    type: 2}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1657106457
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1657106440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 14
-  indentLevel: 0
-  storyText: Ooo ancene bocah sableng. Ngaleho kono.
-  description: 
-  character: {fileID: 114694123400422692, guid: 00852190d6de3c047a448000efede312,
-    type: 2}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1657106458
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1657106440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 13
-  indentLevel: 0
-  storyText: Lho gateli. Piye karepe toh. Wong tuek ra genah.
+  storyText: Baiklah pak saya akan membantu mencari sapi bapak.
   description: 
   character: {fileID: 114416306709055554, guid: 9df318343ce1bbc40bd9ddda11a876d9,
     type: 2}
@@ -3407,7 +3350,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1657106459
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1657106440}
@@ -3427,7 +3370,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1657106460
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1657106440}
@@ -3664,6 +3607,31 @@ Prefab:
         type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114842505065922690, guid: f11c60b284bebd34babc06476842499e,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114842505065922690, guid: f11c60b284bebd34babc06476842499e,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114842505065922690, guid: f11c60b284bebd34babc06476842499e,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114842505065922690, guid: f11c60b284bebd34babc06476842499e,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: ShowInterstitialAd
+      objectReference: {fileID: 0}
+    - target: {fileID: 114842505065922690, guid: f11c60b284bebd34babc06476842499e,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f11c60b284bebd34babc06476842499e, type: 2}
