@@ -6,14 +6,12 @@ using Fungus;
 
 public class Npc : MonoBehaviour {
     private string blockToStop;
-    private Player player;
 
     public Flowchart flowchart;
     public Button btnInteract;
     
 	// Use this for initialization
 	void Start () {
-        player = FindObjectOfType<Player>();
 	}
 	
 	// Update is called once per frame
